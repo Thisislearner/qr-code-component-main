@@ -1,0 +1,42 @@
+/* font-family: 'Rancho', cursive;
+font-family: 'Roboto', sans-serif; */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+.parentContainer {
+  margin: 5% auto;
+  padding: 20px 15px 15px 15px;
+  width: 300px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 25px;
+}
+
+.qrcode {
+  display: inline-block;
+  width: 260px;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+p {
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+.attribution {
+  font-family: "Rancho", cursive;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+}
